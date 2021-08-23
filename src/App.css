@@ -1,0 +1,36 @@
+ /*Usualy this should be imported from some kind of variable.css file*/
+ :root {
+  --color-white: #ffffff;
+  --color-lightGrey: #818181;
+  --font-size-12: 14px;
+  --font-size-14: 16px; 
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.pageLayout{
+  padding: 20px 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.loader {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+select {
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
